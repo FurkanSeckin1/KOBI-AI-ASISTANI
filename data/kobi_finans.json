@@ -1,0 +1,36 @@
+{
+  "companyName": "Yılmaz Tekstil A.Ş.",
+  "period": "Son 3 Ay (Şubat - Nisan 2026)",
+  "totalRevenue": 2450000,
+  "netProfitMargin": 12.0,
+  "expenses": [
+    {
+      "category": "Lojistik & Kargo",
+      "items": [
+        { "name": "Marmara Bölgesi Gönderimleri", "cost": 145000, "note": "Geçen çeyreğe göre %18 artış. Kargo firması baz fiyatı sabitledi ancak desi aşım cezaları %40 arttı." },
+        { "name": "İade Kargo Bedelleri", "cost": 32000, "note": "Özellikle B2C e-ticaret kanalında X-Tişört modelinde iade oranı %12'ye ulaştı." }
+      ]
+    },
+    {
+      "category": "Tedarik & Hammadde",
+      "items": [
+        { "name": "Pamuklu Kumaş Tedariki (Tedarikçi A)", "cost": 420000, "note": "Birim fiyat 3 aydır %15 yüksek, satış fiyatlarına yansıtılmadı." },
+        { "name": "Sentetik Kumaş Tedariki (Tedarikçi B)", "cost": 180000, "note": "Toplu alım iskontosu %5'ten %2'ye düşürüldü." }
+      ]
+    },
+    {
+      "category": "Operasyon & Depolama",
+      "items": [
+        { "name": "Y-Model Kışlık Kaban Depolama", "cost": 45000, "note": "Sezon bittiği halde ürünlerin %30'u elde kaldı, depo metre kare maliyeti yaz sezonu ürünlerine alan bırakmıyor." },
+        { "name": "Personel Mesai Ücretleri (Paketleme)", "cost": 28000, "note": "Pik kampanya döneminde yetersiz personel planlaması nedeniyle %50 fazla mesai ödendi." }
+      ]
+    },
+    {
+      "category": "Pazarlama & Reklam",
+      "items": [
+        { "name": "Google Ads (Kışlık Ürünler)", "cost": 85000, "note": "Hava sıcaklıkları mevsim normallerinin üzerinde olmasına rağmen kışlık ürün reklam bütçesi durdurulmadı. ROAS 0.8 seviyesinde." },
+        { "name": "Sosyal Medya Influencer", "cost": 15000, "note": "Dönüşüm takip kodu bozuk, ROI hesaplanamıyor." }
+      ]
+    }
+  ]
+}
