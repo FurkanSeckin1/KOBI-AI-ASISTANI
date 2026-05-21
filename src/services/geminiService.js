@@ -45,7 +45,7 @@ ${JSON.stringify(rawData)}
 
 export const chatWithAI = async (opportunityContext, userMessage) => {
   try {
-    if (!process.env.EXPO_PUBLIC_GEMINI_API_KEY && API_KEY === 'AIzaSyD__JzUDq2KY0XaWA4TTw2mtWY5erbPEDI') {
+    if (!process.env.EXPO_PUBLIC_GEMINI_API_KEY && API_KEY === '') {
       throw new Error("API_KEY_MISSING");
     }
 
